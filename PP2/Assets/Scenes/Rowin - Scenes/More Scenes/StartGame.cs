@@ -8,25 +8,20 @@ public class StartGame : MonoBehaviour
   public GameObject canvasEscape;
   public bool gamePaused;
 
-  public void FixedUpdate()
+  public void Update()
   {
     if (Input.GetButtonDown("Cancel"))
     {
-      print("Test1");
+      gamePaused = !gamePaused;
 
-        if (gamePaused == false)
-          {
-            Time.timeScale = 0;
-            canvasEscape.SetActive(true);
-            gamePaused = true;
-          }
-          
-            if (gamePaused == true)
-              {
-                Time.timeScale = 1;
-                canvasEscape.SetActive(false);
-                gamePaused = false;
-              }
+            if(gamePaused == true)
+            {
+              print("OK");
+            }
+            else
+            {
+              print("NO");
+            }
     }
   }
   public void StartTheGame()

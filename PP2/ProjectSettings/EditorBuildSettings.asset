@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Rowin - Scenes/More Scenes/Start Screen.unity
+    guid: 58fffeff33bd1ba43aee2f692da58347
+  - enabled: 1
+    path: Assets/Scenes/Rowin - Scenes/More Scenes/BoardSceneTest.unity
+    guid: 440290f41c8e54e42a7fb5db3b7ae262
+  - enabled: 1
+    path: Assets/Scenes/Rowin - Scenes/More Scenes/Settings.unity
+    guid: 74f34942e6c504142ba118952bcd97f0
   m_configObjects: {}
