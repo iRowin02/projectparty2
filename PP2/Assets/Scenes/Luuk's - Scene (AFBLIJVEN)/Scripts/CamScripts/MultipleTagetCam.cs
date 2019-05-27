@@ -10,8 +10,8 @@ public class MultipleTagetCam : MonoBehaviour
     private Vector3 velocity;
 
     public float smoothTime = 0.5f;
-    public float minZoom = 10f;
-    public float maxZoom = 60f;
+    public float minZoom = 100f;
+    public float maxZoom = 10f;
     private float zoomDivider = 20f;
 
     private Camera cam;
