@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class EscapeMenu : MonoBehaviour
 
 {
-    public bool gamePaused;
     public GameObject canvasEscape;
-public void Update()
+    public bool gamePaused;
+    public void Update()
   {
     if (Input.GetButtonDown("Cancel"))
     {
@@ -34,5 +34,9 @@ public void Update()
         public void Back()
   {
       SceneManager.LoadScene("Start Screen");
+  }
+  public void EscapeSettings()
+  {
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
   }
 }
