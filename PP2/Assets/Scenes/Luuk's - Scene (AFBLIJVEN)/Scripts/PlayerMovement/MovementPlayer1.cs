@@ -21,7 +21,7 @@ public class MovementPlayer1 : Movementbase
 
     public void Jump()
     {
-        if (Input.GetButtonDown("Q"))
+        if (Input.GetButtonDown("Jump"))
         {
             GetComponent<Rigidbody>().velocity += jumpPower;
             isGrounded = false;
