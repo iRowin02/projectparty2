@@ -44,12 +44,16 @@ public class PionMovement : MonoBehaviour
     public void Update()
     {
         //Input Turn
-        if (Input.GetButtonDown("Interact"))
+        if (turnOver == false)
         {
-            PlayerTurn(turnPlayers);
-            randomNumber = Random.Range(min, max);
-            players[turnPlayers].GetComponent<Player1>().waypointsToGo = randomNumber;
-            players[turnPlayers].GetComponent<Player1>().speed = 10f;
+            if (Input.GetButtonDown("Interact"))
+            {
+                PlayerTurn(turnPlayers);
+                randomNumber = Random.Range(min, max);
+                players[turnPlayers].GetComponent<Player1>().waypointsToGo = randomNumber;
+                players[turnPlayers].GetComponent<Player1>().speed = 10f;
+            }
+
         }
         if (turnOver == true)
         {
