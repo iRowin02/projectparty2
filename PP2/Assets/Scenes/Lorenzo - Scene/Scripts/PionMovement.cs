@@ -33,6 +33,13 @@ public class PionMovement : MonoBehaviour
         //First player
         turnPlayers = 0;
         players[turnPlayers].GetComponent<Player1>().enabled = true;
+
+        //Minigame Scene
+        minScene = 3;
+        maxScene = 4;
+
+        //Time To minigame
+        timeTill = 10f;
     }
     public void Update()
     {

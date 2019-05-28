@@ -38,10 +38,7 @@ public class Player1 : MonoBehaviour
                 waypointsToGo--;
                 playerManager.GetComponent<PionMovement>().randomNumber--;
             }
-            if (wavePointIndex == 13)
-            {
-                wavePointIndex = -1;
-            }
+            
             if (waypointsToGo <= 0)
             {
                 GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PionMovement>().Check();
