@@ -4,17 +4,31 @@ using UnityEngine;
 
 public class MovementPlatform : MonoBehaviour
 {
-    public float min = 1f;
-    public float max = 20f;
+    public float ver = 2;
+    public float movementSpeed;
+    public Vector3 v;
 
-    void Start()
+    public void Start()
     {
-        min = transform.position.y;
-        max = transform.position.y;
+        movementSpeed = 4;
     }
 
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, Mathf.PingPong(Time.time * 2, max - min) + min, transform.position.z);
+        v.y = ver;
+        transform.Translate(v * Time.deltaTime * movementSpeed);
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Grond")
+        {
+            movementSpeed = 4; 
+        }
+        if (other.tag == "Boven")
+        {
+            movementSpeed = -4;
+        }
+    }
+
 }
