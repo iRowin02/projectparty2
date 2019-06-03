@@ -212,6 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14c4086d39da30c43be357b62c241e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  i: 0
+  camReset: {fileID: 0}
 --- !u!65 &67336591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1255,7 +1257,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b3224cde44a1c814e81cd13f485990ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.304427
+      value: 14.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b3224cde44a1c814e81cd13f485990ca,
         type: 3}
@@ -2116,7 +2118,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5c2566a60ab92cb4f932c9d429c52849,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.6
+      value: 11.6
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5c2566a60ab92cb4f932c9d429c52849,
         type: 3}
