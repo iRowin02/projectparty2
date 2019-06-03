@@ -44,8 +44,8 @@ public class PionMovement : MonoBehaviour
     public void Update()
     {
         //Input Turn
-        if (turnOver == false)
-        {
+        //if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player1>().slot == false)
+        //{
             if (Input.GetButtonDown("Interact"))
             {
                 PlayerTurn(turnPlayers);
@@ -53,8 +53,7 @@ public class PionMovement : MonoBehaviour
                 players[turnPlayers].GetComponent<Player1>().waypointsToGo = randomNumber;
                 players[turnPlayers].GetComponent<Player1>().speed = 10f;
             }
-
-        }
+        //}
         if (turnOver == true)
         {
             timeTill -= Time.deltaTime;

@@ -9,6 +9,7 @@ public class Player1 : MonoBehaviour
     private int wavePointIndex = 0;
     public int waypointsToGo;
     public GameObject playerManager;
+    public bool slot;
 
     void Start()
     {
@@ -28,10 +29,13 @@ public class Player1 : MonoBehaviour
         if (waypointsToGo == 0)
         {
             speed = 0f;
+            slot = false;
         }
 
         if (waypointsToGo != 0)
         {
+            slot = true;
+
             if (Vector3.Distance(transform.position, target.position) <= 0.2f)
             {
                 GetNextWaypoint();
