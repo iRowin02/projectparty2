@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 16
+<<<<<<< HEAD
   productGUID: dd4fb260326a52942abbf18aa5daff4e
+=======
+  productGUID: a1e642a245ae1234a8cee76740858504
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -68,7 +72,11 @@ PlayerSettings:
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+<<<<<<< HEAD
   runInBackground: 0
+=======
+  runInBackground: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -82,7 +90,11 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
+<<<<<<< HEAD
   gpuSkinning: 0
+=======
+  gpuSkinning: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   graphicsJobs: 0
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
@@ -105,7 +117,11 @@ PlayerSettings:
   xboxOneLoggingLevel: 1
   xboxOneDisableEsram: 0
   xboxOnePresentImmediateThreshold: 0
+<<<<<<< HEAD
   switchQueueCommandMemory: 1048576
+=======
+  switchQueueCommandMemory: 0
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   switchQueueControlMemory: 16384
   switchQueueComputeMemory: 262144
   switchNVNShaderPoolsGranularity: 33554432
@@ -118,7 +134,11 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
+<<<<<<< HEAD
   bundleVersion: 1.0
+=======
+  bundleVersion: 0.1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -173,7 +193,11 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
+<<<<<<< HEAD
   StripUnusedMeshComponents: 0
+=======
+  StripUnusedMeshComponents: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSTargetOSVersionString: 9.0
@@ -247,6 +271,7 @@ PlayerSettings:
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
+<<<<<<< HEAD
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
@@ -254,6 +279,15 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
+=======
+  clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
+  templatePackageId: com.unity.template.3d@2.3.1
+  templateDefaultScene: Assets/Scenes/SampleScene.unity
+  AndroidTargetArchitectures: 1
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystoreName: '{inproject}: '
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -270,9 +304,47 @@ PlayerSettings:
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
+<<<<<<< HEAD
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
+=======
+  m_BuildTargetBatching:
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  - m_BuildTarget: tvOS
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  - m_BuildTarget: iPhone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  - m_BuildTarget: WebGL
+    m_StaticBatching: 0
+    m_DynamicBatching: 0
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 150000000b000000
+    m_Automatic: 0
+  - m_BuildTarget: iOSSupport
+    m_APIs: 10000000
+    m_Automatic: 1
+  - m_BuildTarget: AppleTVSupport
+    m_APIs: 10000000
+    m_Automatic: 0
+  - m_BuildTarget: WebGLSupport
+    m_APIs: 0b000000
+    m_Automatic: 1
+  m_BuildTargetVRSettings:
+  - m_BuildTarget: Standalone
+    m_Enabled: 0
+    m_Devices:
+    - Oculus
+    - OpenVR
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -407,7 +479,11 @@ PlayerSettings:
   switchDataLossConfirmation: 0
   switchUserAccountLockEnabled: 0
   switchSystemResourceMemory: 16777216
+<<<<<<< HEAD
   switchSupportedNpadStyles: 6
+=======
+  switchSupportedNpadStyles: 3
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
@@ -452,7 +528,11 @@ PlayerSettings:
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
+<<<<<<< HEAD
   ps4EnterButtonAssignment: 2
+=======
+  ps4EnterButtonAssignment: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
@@ -474,7 +554,11 @@ PlayerSettings:
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
   ps4SocialScreenEnabled: 0
+<<<<<<< HEAD
   ps4ScriptOptimizationLevel: 2
+=======
+  ps4ScriptOptimizationLevel: 0
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -495,7 +579,11 @@ PlayerSettings:
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
+<<<<<<< HEAD
   webGLMemorySize: 32
+=======
+  webGLMemorySize: 16
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLDataCaching: 1
@@ -505,7 +593,11 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
+<<<<<<< HEAD
   webGLCompressionFormat: 0
+=======
+  webGLCompressionFormat: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
@@ -523,14 +615,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: PP2
+=======
+  metroPackageName: Template_3D
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: PP2
+=======
+  metroApplicationDescription: Template_3D
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -580,7 +680,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
+<<<<<<< HEAD
   cloudServicesEnabled: {}
+=======
+  cloudServicesEnabled:
+    UNet: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -592,7 +697,11 @@ PlayerSettings:
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
+<<<<<<< HEAD
   facebookSdkVersion: 
+=======
+  facebookSdkVersion: 7.9.4
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
   facebookAppId: 
   facebookCookies: 1
   facebookLogging: 1
@@ -607,4 +716,8 @@ PlayerSettings:
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
+<<<<<<< HEAD
   legacyClampBlendShapeWeights: 0
+=======
+  legacyClampBlendShapeWeights: 1
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580

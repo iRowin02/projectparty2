@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/Luuk's - Scene (AFBLIJVEN)/LuuksSceneAFVLIEBEN.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> d921e39446db974ca039b382cf6a8c3bf0e78580
